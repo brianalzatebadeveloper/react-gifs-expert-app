@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <GifGrid /> Debe mostrar el componente correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    The Rock
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en el componente <GifGrid /> Debe mostrar items cuando se cargan imagenes useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    The Rock
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC123"
+      key="ABC123"
+      title="Can You Smell The Rock GIF by WWE"
+      url="https://media1.giphy.com/media/l0HUg6Ypas42ubkXu/giphy.gif?cid=0858df19exqupm9xvcfjarglgzwksmozb9542poktfd6af8i&rid=giphy.gif&ct=g"
+    />
+  </div>
+</Fragment>
+`;

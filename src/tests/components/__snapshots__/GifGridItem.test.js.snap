@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente GifGridItem.js Debe mostrar el componente <GifGridItem /> correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="Can You Smell The Rock GIF by WWE"
+    src="https://media1.giphy.com/media/l0HUg6Ypas42ubkXu/giphy.gif?cid=0858df19exqupm9xvcfjarglgzwksmozb9542poktfd6af8i&rid=giphy.gif&ct=g"
+  />
+  <p>
+    Can You Smell The Rock GIF by WWE
+  </p>
+</div>
+`;
